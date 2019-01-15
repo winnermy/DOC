@@ -1,0 +1,6 @@
+config SECURITY_MYLSM
+    bool "my first security module"
+    depends on SECURITY && SECURITYFS
+    default y
+    help
+        Add my first security module for test and studing.
